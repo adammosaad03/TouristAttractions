@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% block head %}
+
+    {% endblock %}
+    <body>
+      <a linkrel="stylesheet" href="{% url 'home' %}">Take me to finland</a>
+      {% block content %}
+      {% endblock %}
+      </body>
+  </head>
+  </html>
